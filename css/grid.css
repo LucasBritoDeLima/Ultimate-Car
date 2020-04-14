@@ -1,0 +1,126 @@
+/* reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/* conteiner */
+.container-grid  {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+    @media (min-width: 1170px) {
+        .container {
+            max-width: 1170px;
+            padding: 0;
+        }
+    }
+
+/* linha */
+.row-grid {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+    .row-grid:before,
+    .row-grid:after {
+        content: "";
+        display: table;
+    }
+    .row-grid:after {
+        clear: both;
+    }
+
+/* colunas */
+.col-grid {
+    display: inline-block;
+    vertical-align: top;
+    min-height: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    margin-right: -4px;
+    *zoom: 1;
+    *display: inline;
+}
+.colimg-grid {
+    background-image: url('../img/engine.jpg');
+    background-size: cover;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 80%;
+    height: 60%;
+    margin-right: -4px;
+    *zoom: 1;
+    *display: inline;
+
+}
+    /* duas colonas */
+    @media (min-width: 480px) {
+        .col-2-grid {
+            width: 50%;
+        }
+    }
+
+    /* tres colunas */
+    @media (min-width: 728px) {
+        .col-3-grid {
+            width: 33.3333%;
+        }
+    }
+
+    /* sidebar */
+    @media (min-width: 992px) {
+        .col-2-grid-content {
+            width: 60%;
+        }
+
+        .col-2-grid-sidebar {
+           width: 40%;
+        }
+    }
+
+
+/* USAR APENAS PARA DEMOSTRAÇÂO */
+.teste {
+    background-color: #fff;
+    padding: 5px;
+    text-align: center;
+    margin: 2px 0;
+    color: #333;
+    border-radius: 3px 3px 3px;
+}
+.big {
+    height: 50px;
+}
+.borda{
+    border: 1px solid #000;
+}
+
+.alerta{
+    width: 80%;
+    border: 1px solid #666;
+    border-radius: 5px 5px 5px;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.saudacao {
+    width: 50%;
+}
+.user{
+    width: 50%;
+    float: right;
+    position: absolute;
+}

@@ -1,0 +1,49 @@
+        @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+        
+        .text {font-family: 'Muli', sans-serif;}
+        .text-color{
+            font-family: 'Muli', sans-serif;
+            color: #ebebeb;
+        }
+        .text-color2{
+            font-family: 'Muli', sans-serif;
+            color: #000;
+            font-size: 20px;
+        }
+        .linha{
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #919191;
+        }
+        .fundopreto{
+            background-color: black;
+            text-align: left;
+        }
+        .fundoazul{
+            background-color: #008ACC;
+            text-align: left;
+        }
+        .corbranca{
+            font-family: 'Muli', sans-serif;
+            color: white;
+        }
+        .textcenter{
+            text-align: center;
+        }
+        @font-face{
+            font-family: 'Google';
+            src: url('Product Sans Regular.ttf');
+        }
+        .textgoogle{
+            font-family: 'Google';
+        }
+        .textred{
+            color: #ff253a;
+        }
+        .fundo{
+            background-image: url(../images/fundo-oleo.jpeg);
+            background-repeat: no-repeat;
+            object-fit: cover;
+            background-attachment: fixed;
+        }
+        
